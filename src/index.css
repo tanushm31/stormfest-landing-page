@@ -90,3 +90,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--primary));
 }
+.bg-noise { background-image: url("/noise.svg"); mix-blend-mode: overlay; opacity: 0.3; }
+.neon-text { text-shadow: 0 0 10px rgba(255,255,255,0.9), 0 0 20px rgba(255,20,147,0.8), 0 0 40px rgba(255,20,147,0.7); }
+
